@@ -13,7 +13,12 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            //apply plugin: 'war'
+            //apply plugin: 'jetty'
+            //apply plugin: 'project-report'
+            //apply plugin: 'java'
+            apply plugin: 'findbugs'
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

@@ -11,17 +11,18 @@
 
     <EditText
         android:id="@+id/edittext"
-        android:hint="Why is this thing so broken?"
+        android:hint="Insert Web site,default is http://www.google.com"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
        <Button
+           android:id="@+id/buttonid"
            android:layout_below="@+id/edittext"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_centerHorizontal="true"
-           android:text="My darling, please don't cry!"
+           android:text="Connect!"
            android:onClick="brokenFunction"
         />
 
